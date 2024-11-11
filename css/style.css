@@ -26,8 +26,8 @@ img {
 @font-face {
   font-family: 'Geologica';
   src: local('GeologicaThin100'),
-  url("/fonts/GeologicaThin100.woff2") format("woff2"),
-  url("/fonts/GeologicaThin100.woff") format("woff");
+  url("../fonts/GeologicaThin100.woff2") format("woff2"),
+  url("../fonts/GeologicaThin100.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -36,8 +36,8 @@ img {
 @font-face {
   font-family: 'Geologica';
   src: local('GeologicaLight300'),
-  url("/fonts/GeologicaLight300.woff2") format("woff2"),
-  url("/fonts/GeologicaLight300.woff") format("woff");
+  url("../fonts/GeologicaLight300.woff2") format("woff2"),
+  url("../fonts/GeologicaLight300.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,8 @@ img {
 @font-face {
   font-family: 'Geologica';
   src: local('GeologicaRegular400'),
-  url("/fonts/GeologicaRegular400.woff2") format("woff2"),
-  url("/fonts/GeologicaRegular400.woff") format("woff");
+  url("../fonts/GeologicaRegular400.woff2") format("woff2"),
+  url("../fonts/GeologicaRegular400.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -56,8 +56,8 @@ img {
 @font-face {
   font-family: 'Geologica';
   src: local('GeologicaMedium500'),
-  url("/fonts/GeologicaMedium500.woff2") format("woff2"),
-  url("/fonts/GeologicaMedium500.woff") format("woff");
+  url("../fonts/GeologicaMedium500.woff2") format("woff2"),
+  url("../fonts/GeologicaMedium500.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -66,8 +66,8 @@ img {
 @font-face {
   font-family: 'Geologica';
   src: local('GeologicaSemiBold600'),
-  url("/fonts/GeologicaSemiBold600.woff2") format("woff2"),
-  url("/fonts/GeologicaSemiBold600.woff") format("woff");
+  url("../fonts/GeologicaSemiBold600.woff2") format("woff2"),
+  url("../fonts/GeologicaSemiBold600.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -76,8 +76,8 @@ img {
 @font-face {
   font-family: 'Geologica';
   src: local('GeologicaBold700'),
-  url("/fonts/GeologicaBold700.woff2") format("woff2"),
-  url("/fonts/GeologicaBold700.woff") format("woff");
+  url("../fonts/GeologicaBold700.woff2") format("woff2"),
+  url("../fonts/GeologicaBold700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -92,7 +92,7 @@ img {
 
   position: relative;
 
-  background-image: url("/img/BIG-bg-3.png");
+  background-image: url("../img/BIG-bg-3.png");
   background-size: cover;
   background-repeat: repeat;
   background-position: center ;
@@ -876,7 +876,7 @@ img {
 }
 
 .button1 {
-  background-image: url("/img/button1.png");
+  background-image: url("../img/button1.png");
   padding: 9px 47px;
   font-weight: 600;
   font-size: clamp(12px, 2.7vw, 24px);
@@ -890,7 +890,7 @@ img {
 }
 
 .button2 {
-  background-image: url("/img/button2.png");
+  background-image: url("../img/button2.png");
   padding: 9px 26px;
   font-weight: 600;
   font-size: clamp(12px, 2.7vw, 24px);
